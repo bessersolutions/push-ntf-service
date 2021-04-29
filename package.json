@@ -1,0 +1,22 @@
+{
+  "name": "svcbesser",
+  "version": "0.0.1",
+  "description": "Push notifications service",
+  "main": "index.js",
+  "author": "JT",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/service.js",
+    "dev": "ts-node ./src/service.ts"
+  },
+  "dependencies": {
+    "@types/node": "^15.0.1",
+    "axios": "^0.21.1",
+    "promise-mysql": "^5.0.3",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
